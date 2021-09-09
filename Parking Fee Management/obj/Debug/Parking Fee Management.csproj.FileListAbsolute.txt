@@ -1,0 +1,33 @@
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Parking Fee Management.exe.config
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Parking Fee Management.exe
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Parking Fee Management.pdb
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking_Fee_Management.dashboard.resources
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking_Fee_Management.frmLogin.resources
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking_Fee_Management.frm_Register.resources
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking_Fee_Management.Properties.Resources.resources
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.csproj.GenerateResource.cache
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.csproj.CoreCompileInputs.cache
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.exe
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.pdb
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking_Fee_Management.reciept.resources
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Parking Fee Management.exe.manifest
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Parking Fee Management.application
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.exe.manifest
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.application
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\MySql.Data.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Google.Protobuf.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Zstandard.Net.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\Renci.SshNet.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\System.Memory.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\System.Buffers.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\bin\Debug\MySql.Data.xml
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.exe.config
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.csproj.CopyComplete
+C:\Users\Elsa\source\repos\Parking Fee Management\Parking Fee Management\obj\Debug\Parking Fee Management.csprojAssemblyReference.cache
