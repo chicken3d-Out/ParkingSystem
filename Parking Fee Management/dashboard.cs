@@ -316,7 +316,7 @@ namespace Parking_Fee_Management
                 //saving datagrid inputs to microsoft excel
                 saveFileDialog1.InitialDirectory = "C:";
                 saveFileDialog1.Title = "Save as Excel File";
-                saveFileDialog1.FileName = "";
+                saveFileDialog1.FileName = "Tesla Inc: Car Parked For Date: " + DateTime.Now.ToShortDateString();
                 saveFileDialog1.Filter = "Excel Files(2013)|*.xlsx";
 
                 if(saveFileDialog1.ShowDialog() != DialogResult.Cancel)
@@ -354,6 +354,11 @@ namespace Parking_Fee_Management
         private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
            
+        }
+
+        private void currentTime_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

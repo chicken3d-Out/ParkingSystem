@@ -115,14 +115,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Parking Fee Management.exe" size="197080">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Parking Fee Management.exe" size="198104">
       <assemblyIdentity name="Parking Fee Management" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>IA1Cdy4SgikNXJDQ2GVe6NsZO/A0dGU73xHxO2IpB2I=</dsig:DigestValue>
+        <dsig:DigestValue>IvPgkoZC1xScWhy9yIJQJOGgecSQPN5heIs2ej+Eb3g=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

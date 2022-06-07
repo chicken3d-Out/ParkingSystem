@@ -30,8 +30,8 @@ namespace Parking_Fee_Management
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.licensePlate = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -90,14 +90,14 @@ namespace Parking_Fee_Management
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(245)))), ((int)(((byte)(219)))));
             this.dataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(99)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(245)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(99)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(245)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.licensePlate,
@@ -107,19 +107,20 @@ namespace Parking_Fee_Management
             this.timeOut,
             this.duration,
             this.amount});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.LimeGreen;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.LimeGreen;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.LimeGreen;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.LimeGreen;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView.EnableHeadersVisualStyles = false;
             this.dataGridView.Location = new System.Drawing.Point(213, 108);
             this.dataGridView.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersVisible = false;
+            this.dataGridView.RowHeadersWidth = 51;
             this.dataGridView.Size = new System.Drawing.Size(723, 409);
             this.dataGridView.TabIndex = 0;
             this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
@@ -129,42 +130,49 @@ namespace Parking_Fee_Management
             // 
             this.licensePlate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.licensePlate.HeaderText = "License Plate";
+            this.licensePlate.MinimumWidth = 6;
             this.licensePlate.Name = "licensePlate";
             // 
             // brand
             // 
             this.brand.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.brand.HeaderText = "Brand";
+            this.brand.MinimumWidth = 6;
             this.brand.Name = "brand";
             // 
             // colour
             // 
             this.colour.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.colour.HeaderText = "Colour";
+            this.colour.MinimumWidth = 6;
             this.colour.Name = "colour";
             // 
             // timeIn
             // 
             this.timeIn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.timeIn.HeaderText = "Time-In";
+            this.timeIn.MinimumWidth = 6;
             this.timeIn.Name = "timeIn";
             // 
             // timeOut
             // 
             this.timeOut.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.timeOut.HeaderText = "Time-Out";
+            this.timeOut.MinimumWidth = 6;
             this.timeOut.Name = "timeOut";
             // 
             // duration
             // 
             this.duration.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.duration.HeaderText = "Duration";
+            this.duration.MinimumWidth = 6;
             this.duration.Name = "duration";
             // 
             // amount
             // 
             this.amount.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.amount.HeaderText = "Amount";
+            this.amount.MinimumWidth = 6;
             this.amount.Name = "amount";
             // 
             // txtLiscensePlate
@@ -173,7 +181,7 @@ namespace Parking_Fee_Management
             this.txtLiscensePlate.Location = new System.Drawing.Point(53, 37);
             this.txtLiscensePlate.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtLiscensePlate.Name = "txtLiscensePlate";
-            this.txtLiscensePlate.Size = new System.Drawing.Size(121, 24);
+            this.txtLiscensePlate.Size = new System.Drawing.Size(121, 28);
             this.txtLiscensePlate.TabIndex = 1;
             // 
             // txtBrand
@@ -182,7 +190,7 @@ namespace Parking_Fee_Management
             this.txtBrand.Location = new System.Drawing.Point(53, 96);
             this.txtBrand.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtBrand.Name = "txtBrand";
-            this.txtBrand.Size = new System.Drawing.Size(121, 24);
+            this.txtBrand.Size = new System.Drawing.Size(121, 28);
             this.txtBrand.TabIndex = 2;
             // 
             // txtColour
@@ -191,7 +199,7 @@ namespace Parking_Fee_Management
             this.txtColour.Location = new System.Drawing.Point(53, 155);
             this.txtColour.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtColour.Name = "txtColour";
-            this.txtColour.Size = new System.Drawing.Size(121, 24);
+            this.txtColour.Size = new System.Drawing.Size(121, 28);
             this.txtColour.TabIndex = 3;
             // 
             // label1
@@ -202,7 +210,7 @@ namespace Parking_Fee_Management
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(13, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 18);
+            this.label1.Size = new System.Drawing.Size(153, 25);
             this.label1.TabIndex = 3;
             this.label1.Text = "Liscense Plate";
             // 
@@ -214,7 +222,7 @@ namespace Parking_Fee_Management
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(32, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(55, 18);
+            this.label2.Size = new System.Drawing.Size(72, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Brand";
             // 
@@ -226,7 +234,7 @@ namespace Parking_Fee_Management
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(27, 133);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 18);
+            this.label3.Size = new System.Drawing.Size(78, 25);
             this.label3.TabIndex = 3;
             this.label3.Text = "Colour";
             // 
@@ -238,7 +246,7 @@ namespace Parking_Fee_Management
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(14, 13);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 18);
+            this.label4.Size = new System.Drawing.Size(92, 25);
             this.label4.TabIndex = 3;
             this.label4.Text = "TIME IN";
             // 
@@ -250,7 +258,7 @@ namespace Parking_Fee_Management
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(13, 103);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 18);
+            this.label5.Size = new System.Drawing.Size(112, 25);
             this.label5.TabIndex = 3;
             this.label5.Text = "TIME OUT";
             // 
@@ -262,7 +270,7 @@ namespace Parking_Fee_Management
             this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(170, 3);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 17);
+            this.label6.Size = new System.Drawing.Size(117, 20);
             this.label6.TabIndex = 4;
             this.label6.Text = "AVAILABLE";
             // 
@@ -274,7 +282,7 @@ namespace Parking_Fee_Management
             this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(32, 3);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 17);
+            this.label7.Size = new System.Drawing.Size(108, 20);
             this.label7.TabIndex = 4;
             this.label7.Text = "OCCUPIED";
             // 
@@ -288,7 +296,7 @@ namespace Parking_Fee_Management
             this.lblOccupied.ForeColor = System.Drawing.Color.Orange;
             this.lblOccupied.Location = new System.Drawing.Point(41, 18);
             this.lblOccupied.Name = "lblOccupied";
-            this.lblOccupied.Size = new System.Drawing.Size(73, 76);
+            this.lblOccupied.Size = new System.Drawing.Size(90, 94);
             this.lblOccupied.TabIndex = 5;
             this.lblOccupied.Text = "0";
             // 
@@ -301,7 +309,7 @@ namespace Parking_Fee_Management
             this.lblAvailable.ForeColor = System.Drawing.Color.LimeGreen;
             this.lblAvailable.Location = new System.Drawing.Point(160, 17);
             this.lblAvailable.Name = "lblAvailable";
-            this.lblAvailable.Size = new System.Drawing.Size(153, 76);
+            this.lblAvailable.Size = new System.Drawing.Size(190, 94);
             this.lblAvailable.TabIndex = 5;
             this.lblAvailable.Text = "100";
             // 
@@ -313,7 +321,7 @@ namespace Parking_Fee_Management
             this.currentDate.ForeColor = System.Drawing.Color.White;
             this.currentDate.Location = new System.Drawing.Point(20, 17);
             this.currentDate.Name = "currentDate";
-            this.currentDate.Size = new System.Drawing.Size(50, 18);
+            this.currentDate.Size = new System.Drawing.Size(64, 25);
             this.currentDate.TabIndex = 7;
             this.currentDate.Text = "Date";
             // 
@@ -330,9 +338,10 @@ namespace Parking_Fee_Management
             this.currentTime.ForeColor = System.Drawing.Color.White;
             this.currentTime.Location = new System.Drawing.Point(15, 39);
             this.currentTime.Name = "currentTime";
-            this.currentTime.Size = new System.Drawing.Size(116, 46);
+            this.currentTime.Size = new System.Drawing.Size(144, 56);
             this.currentTime.TabIndex = 7;
             this.currentTime.Text = "Time";
+            this.currentTime.Click += new System.EventHandler(this.currentTime_Click);
             // 
             // label10
             // 
@@ -341,7 +350,7 @@ namespace Parking_Fee_Management
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(99)))), ((int)(((byte)(64)))));
             this.label10.Location = new System.Drawing.Point(87, 43);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(64, 17);
+            this.label10.Size = new System.Drawing.Size(79, 20);
             this.label10.TabIndex = 19;
             this.label10.Text = "System";
             // 
@@ -352,7 +361,7 @@ namespace Parking_Fee_Management
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(99)))), ((int)(((byte)(64)))));
             this.label11.Location = new System.Drawing.Point(87, 25);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(123, 18);
+            this.label11.Size = new System.Drawing.Size(155, 25);
             this.label11.TabIndex = 20;
             this.label11.Text = "Management";
             // 
@@ -363,7 +372,7 @@ namespace Parking_Fee_Management
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(99)))), ((int)(((byte)(64)))));
             this.label12.Location = new System.Drawing.Point(87, 7);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(108, 18);
+            this.label12.Size = new System.Drawing.Size(141, 25);
             this.label12.TabIndex = 21;
             this.label12.Text = "Parking Lot";
             // 
@@ -526,7 +535,7 @@ namespace Parking_Fee_Management
             // 
             // dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.ClientSize = new System.Drawing.Size(948, 561);

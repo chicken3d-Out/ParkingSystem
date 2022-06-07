@@ -58,9 +58,10 @@ namespace Parking_Fee_Management
             this.lblReceiptNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(99)))), ((int)(((byte)(64)))));
             this.lblReceiptNo.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReceiptNo.ForeColor = System.Drawing.Color.White;
-            this.lblReceiptNo.Location = new System.Drawing.Point(196, 18);
+            this.lblReceiptNo.Location = new System.Drawing.Point(261, 22);
+            this.lblReceiptNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblReceiptNo.Name = "lblReceiptNo";
-            this.lblReceiptNo.Size = new System.Drawing.Size(62, 25);
+            this.lblReceiptNo.Size = new System.Drawing.Size(79, 32);
             this.lblReceiptNo.TabIndex = 0;
             this.lblReceiptNo.Text = "label1";
             // 
@@ -69,9 +70,10 @@ namespace Parking_Fee_Management
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(95, 18);
+            this.label1.Location = new System.Drawing.Point(127, 22);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 21);
+            this.label1.Size = new System.Drawing.Size(116, 28);
             this.label1.TabIndex = 1;
             this.label1.Text = "Reciept No:";
             // 
@@ -79,9 +81,10 @@ namespace Parking_Fee_Management
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label2.Location = new System.Drawing.Point(30, 66);
+            this.label2.Location = new System.Drawing.Point(40, 81);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 17);
+            this.label2.Size = new System.Drawing.Size(63, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Date: ";
             // 
@@ -89,9 +92,10 @@ namespace Parking_Fee_Management
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label3.Location = new System.Drawing.Point(30, 99);
+            this.label3.Location = new System.Drawing.Point(40, 122);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 17);
+            this.label3.Size = new System.Drawing.Size(143, 20);
             this.label3.TabIndex = 1;
             this.label3.Text = "Liscence Plate: ";
             // 
@@ -99,9 +103,10 @@ namespace Parking_Fee_Management
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label4.Location = new System.Drawing.Point(30, 132);
+            this.label4.Location = new System.Drawing.Point(40, 162);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 17);
+            this.label4.Size = new System.Drawing.Size(90, 20);
             this.label4.TabIndex = 1;
             this.label4.Text = "Time In: ";
             // 
@@ -109,9 +114,10 @@ namespace Parking_Fee_Management
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label5.Location = new System.Drawing.Point(30, 99);
+            this.label5.Location = new System.Drawing.Point(40, 122);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 17);
+            this.label5.Size = new System.Drawing.Size(143, 20);
             this.label5.TabIndex = 1;
             this.label5.Text = "Liscence Plate: ";
             // 
@@ -119,9 +125,10 @@ namespace Parking_Fee_Management
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label6.Location = new System.Drawing.Point(30, 158);
+            this.label6.Location = new System.Drawing.Point(40, 194);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 17);
+            this.label6.Size = new System.Drawing.Size(108, 20);
             this.label6.TabIndex = 1;
             this.label6.Text = "Time Out:  ";
             // 
@@ -129,9 +136,10 @@ namespace Parking_Fee_Management
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label7.Location = new System.Drawing.Point(30, 253);
+            this.label7.Location = new System.Drawing.Point(40, 311);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(85, 17);
+            this.label7.Size = new System.Drawing.Size(103, 20);
             this.label7.TabIndex = 1;
             this.label7.Text = "Duration:  ";
             // 
@@ -139,9 +147,10 @@ namespace Parking_Fee_Management
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label8.Location = new System.Drawing.Point(38, 280);
+            this.label8.Location = new System.Drawing.Point(51, 345);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(80, 17);
+            this.label8.Size = new System.Drawing.Size(97, 20);
             this.label8.TabIndex = 1;
             this.label8.Text = "Amount:  ";
             // 
@@ -151,9 +160,10 @@ namespace Parking_Fee_Management
             this.btnPaid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPaid.Font = new System.Drawing.Font("Segoe UI", 9.5F, System.Drawing.FontStyle.Bold);
             this.btnPaid.ForeColor = System.Drawing.Color.Black;
-            this.btnPaid.Location = new System.Drawing.Point(99, 324);
+            this.btnPaid.Location = new System.Drawing.Point(152, 400);
+            this.btnPaid.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPaid.Name = "btnPaid";
-            this.btnPaid.Size = new System.Drawing.Size(86, 25);
+            this.btnPaid.Size = new System.Drawing.Size(115, 34);
             this.btnPaid.TabIndex = 2;
             this.btnPaid.Text = "Paid";
             this.btnPaid.UseVisualStyleBackColor = false;
@@ -165,9 +175,10 @@ namespace Parking_Fee_Management
             this.lblRecieptDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.lblRecieptDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRecieptDate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblRecieptDate.Location = new System.Drawing.Point(88, 63);
+            this.lblRecieptDate.Location = new System.Drawing.Point(117, 78);
+            this.lblRecieptDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRecieptDate.Name = "lblRecieptDate";
-            this.lblRecieptDate.Size = new System.Drawing.Size(57, 20);
+            this.lblRecieptDate.Size = new System.Drawing.Size(70, 25);
             this.lblRecieptDate.TabIndex = 3;
             this.lblRecieptDate.Text = "label9";
             // 
@@ -177,9 +188,10 @@ namespace Parking_Fee_Management
             this.lblReceiptLPlate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.lblReceiptLPlate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReceiptLPlate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblReceiptLPlate.Location = new System.Drawing.Point(139, 99);
+            this.lblReceiptLPlate.Location = new System.Drawing.Point(185, 122);
+            this.lblReceiptLPlate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblReceiptLPlate.Name = "lblReceiptLPlate";
-            this.lblReceiptLPlate.Size = new System.Drawing.Size(67, 20);
+            this.lblReceiptLPlate.Size = new System.Drawing.Size(82, 25);
             this.lblReceiptLPlate.TabIndex = 4;
             this.lblReceiptLPlate.Text = "label10";
             // 
@@ -189,9 +201,10 @@ namespace Parking_Fee_Management
             this.lblRecieptTimeIn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.lblRecieptTimeIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRecieptTimeIn.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblRecieptTimeIn.Location = new System.Drawing.Point(114, 132);
+            this.lblRecieptTimeIn.Location = new System.Drawing.Point(152, 162);
+            this.lblRecieptTimeIn.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRecieptTimeIn.Name = "lblRecieptTimeIn";
-            this.lblRecieptTimeIn.Size = new System.Drawing.Size(67, 20);
+            this.lblRecieptTimeIn.Size = new System.Drawing.Size(82, 25);
             this.lblRecieptTimeIn.TabIndex = 5;
             this.lblRecieptTimeIn.Text = "label10";
             // 
@@ -201,9 +214,10 @@ namespace Parking_Fee_Management
             this.lblReceiptTimeOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.lblReceiptTimeOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReceiptTimeOut.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblReceiptTimeOut.Location = new System.Drawing.Point(114, 158);
+            this.lblReceiptTimeOut.Location = new System.Drawing.Point(152, 194);
+            this.lblReceiptTimeOut.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblReceiptTimeOut.Name = "lblReceiptTimeOut";
-            this.lblReceiptTimeOut.Size = new System.Drawing.Size(67, 20);
+            this.lblReceiptTimeOut.Size = new System.Drawing.Size(82, 25);
             this.lblReceiptTimeOut.TabIndex = 6;
             this.lblReceiptTimeOut.Text = "label10";
             // 
@@ -213,9 +227,10 @@ namespace Parking_Fee_Management
             this.lblRecieptDuration.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.lblRecieptDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRecieptDuration.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblRecieptDuration.Location = new System.Drawing.Point(114, 253);
+            this.lblRecieptDuration.Location = new System.Drawing.Point(152, 311);
+            this.lblRecieptDuration.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRecieptDuration.Name = "lblRecieptDuration";
-            this.lblRecieptDuration.Size = new System.Drawing.Size(67, 20);
+            this.lblRecieptDuration.Size = new System.Drawing.Size(82, 25);
             this.lblRecieptDuration.TabIndex = 7;
             this.lblRecieptDuration.Text = "label10";
             // 
@@ -225,9 +240,10 @@ namespace Parking_Fee_Management
             this.lblRecieptAmount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.lblRecieptAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRecieptAmount.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblRecieptAmount.Location = new System.Drawing.Point(114, 277);
+            this.lblRecieptAmount.Location = new System.Drawing.Point(152, 341);
+            this.lblRecieptAmount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRecieptAmount.Name = "lblRecieptAmount";
-            this.lblRecieptAmount.Size = new System.Drawing.Size(67, 20);
+            this.lblRecieptAmount.Size = new System.Drawing.Size(82, 25);
             this.lblRecieptAmount.TabIndex = 8;
             this.lblRecieptAmount.Text = "label10";
             // 
@@ -235,9 +251,10 @@ namespace Parking_Fee_Management
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label9.Location = new System.Drawing.Point(49, 187);
+            this.label9.Location = new System.Drawing.Point(65, 230);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 17);
+            this.label9.Size = new System.Drawing.Size(80, 20);
             this.label9.TabIndex = 9;
             this.label9.Text = "Brand:  ";
             // 
@@ -245,9 +262,10 @@ namespace Parking_Fee_Management
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Verdana", 10F);
-            this.label10.Location = new System.Drawing.Point(49, 213);
+            this.label10.Location = new System.Drawing.Point(65, 262);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(61, 17);
+            this.label10.Size = new System.Drawing.Size(73, 20);
             this.label10.TabIndex = 10;
             this.label10.Text = "Color:  ";
             // 
@@ -257,9 +275,10 @@ namespace Parking_Fee_Management
             this.lblBrand.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.lblBrand.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBrand.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblBrand.Location = new System.Drawing.Point(114, 187);
+            this.lblBrand.Location = new System.Drawing.Point(152, 230);
+            this.lblBrand.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBrand.Name = "lblBrand";
-            this.lblBrand.Size = new System.Drawing.Size(67, 20);
+            this.lblBrand.Size = new System.Drawing.Size(82, 25);
             this.lblBrand.TabIndex = 11;
             this.lblBrand.Text = "label10";
             // 
@@ -269,18 +288,19 @@ namespace Parking_Fee_Management
             this.lblColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(205)))), ((int)(((byte)(193)))));
             this.lblColor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblColor.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblColor.Location = new System.Drawing.Point(114, 213);
+            this.lblColor.Location = new System.Drawing.Point(152, 262);
+            this.lblColor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblColor.Name = "lblColor";
-            this.lblColor.Size = new System.Drawing.Size(67, 20);
+            this.lblColor.Size = new System.Drawing.Size(82, 25);
             this.lblColor.TabIndex = 12;
             this.lblColor.Text = "label10";
             // 
             // reciept
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(245)))), ((int)(((byte)(219)))));
-            this.ClientSize = new System.Drawing.Size(293, 361);
+            this.ClientSize = new System.Drawing.Size(391, 447);
             this.Controls.Add(this.lblColor);
             this.Controls.Add(this.lblBrand);
             this.Controls.Add(this.label10);
@@ -303,6 +323,7 @@ namespace Parking_Fee_Management
             this.Controls.Add(this.lblReceiptNo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "reciept";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "reciept";
